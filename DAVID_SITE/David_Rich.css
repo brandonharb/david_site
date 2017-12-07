@@ -1,0 +1,76 @@
+body {
+	font: .625em;
+	font-family: 'Montserrat';
+	line-height: 1;
+}
+
+#container {
+	margin: 0 auto -60px;
+}
+
+#container, #footer {
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#footer {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	max-width: 800px;
+}
+
+li {
+	float: right;
+	display: block;
+	padding: 16px;
+}
+
+li a {
+	display: block;
+	padding: 16px;
+}
+
+#header {
+margin: 0 auto;
+padding: 4em 0 2em;
+}
+
+#title {
+	float: left;
+	font size: 1.6em;
+	font-weight: 700;
+}
+
+#nav a.on {
+	border-color: black;
+}
+
+#nav a, #title a {
+	padding: 4px 0;
+	text-decoration: none;
+}
+
+/* link bottom border */
+#nav a {
+	border-bottom: 1px black;
+}
+
+#nav a.on {
+	border-color: black;
+}
+
+/* link coloring */
+a:link, a:visited, a:hover {
+	color: black;
+}
+
+a:hover {
+	color: gray;
+}
